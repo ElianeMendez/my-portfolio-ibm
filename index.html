@@ -1,163 +1,147 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Jane Doe - Portfolio</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js"></script>
-  </head>
-  <body>
-    <!-- Navigation Bar -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eli Mendez Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+
+  <!-- ---------- Header ---------- -->
+  <header>
+    <div class="logo">
+      <h1>Eli Mendez</h1>
+      <p>elianemen@gmail.com</p>
+      <p>+1 234 567 8910</p>
+    </div>
     <nav>
-      <div id="home">
-        <div class="profile_name">
-          Jane Doe
-          <div class="contact_info">
-            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          jdoe@jeemail.com
-        </div>
-        <div style="clear:both;"></div>
-        <div class="contact_info">
-          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          +13456764598
-
-        </div>
-        </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
-
-        </div>
-      </div>    
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
     </nav>
+  </header>
 
-    <!-- About Me -->
-    <section id="about-me" class="container">
-      <div>
-        <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/>
-      </div>
-
-      <div>
-          <h1>
-            Hi, I'm Jane Doe! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
-          </h1>
-          <p>
-            I am a full stack developer with 2 years of experience in both application and presentation layers.
-            I have worked on applications and microservices deployed on IBM Cloud. 
-            I am an avid user of IBM Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few.
-          </p>
-      </div>
-    </section>
-              
-    <!-- Skills -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <div style="clear:both;"></div>
-
-      <div class="all_skills">
-        <div class="skill">
-          <img src="html_finalprojimages/html5.png"/>
-          <h6>HTML</h6>
-          <p>2 years experience</p>
-        </div>  
-
-        <div class="skill">
-          <img src="html_finalprojimages/js.jpeg"/>
-          <h6>JavaScript</h6>
-          <p>3 years experience</p>
-        </div>  
-
-        <!-- Add more skills here -->
-
-
-      </div>
-    </section>
-          
-    <!-- Projects -->
-    <section class="projects" id="projects">
-      <h2>
-        Projects
-      </h2>
-      <div style="clear:both;"></div>
-
-        <div id="projects-container" class="projects-container">
-          <div class="project-card">
-            <h3>Chatbot</h3>
-            <ul>
-              <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>Sentiment Analyzer</h3>
-            <ul>
-              <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>Fashion Website</h3>
-            <ul>
-              <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
-            </ul>
-          </div>
+  <!-- ---------- About Me ---------- -->
+  <section id="about">
+    <img src="html_finalprojimages/Gemini_Generated_Image_l1a2k8l1a2k8l1a2.png" alt="Profile Photo">
+    <div class="about-text">
+      <h2>Hi, I'm Eli Mendez! 👋</h2>
+      <p>
+        I am a full stack development student, currently building my skills in both application and presentation layers. 
+        I am learning to work with web technologies like HTML, CSS, JavaScript, and React, 
+        and I am eager to gain practical experience through projects and collaborations.
+      </p>
     </div>
-    </section>
-    <div style="clear:both;"></div>
+  </section>
 
-    <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Recommendations</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Jane is a very quick learner and quickly grasps key concepts of Web development. 
-          She got a great attitude & she is an excellent team player. 
-          She has a curious mind and asks the right question. 
-          She takes initiative within a team and has potentials to lead the team.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Working with Jane has been an awesome experience. 
-          She is highly knowledgable and always goes the extra step to make sure everything is right. 
-          For any future projects that need her expertise I would definitely want to work with her again.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          I had worked along with Jane during the initial phase of our venture which needed Web development. 
-          She is a committed resource who has in depth knowledge about the domain. 
-          She will be an asset for any organisation! 
-          <span>&#8221;</span>
-        </div>
+  <!-- ---------- Skills ---------- -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <img src="html_finalprojimages/html-logo.png" alt="HTML Logo" class="skill-logo">
+        <h3>HTML</h3>
+        <p>2 years experience</p>
       </div>
-    </section>
-
-    <!-- Recommendation Form -->
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
-          </div>
-        </fieldset>
+      <div class="skill-card">
+        <img src="html_finalprojimages/css-logo.png" alt="CSS Logo" class="skill-logo">
+        <h3>CSS</h3>
+        <p>2 years experience</p>
       </div>
-    </section>
+      <div class="skill-card">
+        <img src="html_finalprojimages/javascript-logo.png" alt="JavaScript Logo" class="skill-logo">
+        <h3>JavaScript</h3>
+        <p>1.5 years experience</p>
+      </div>
+      <div class="skill-card">
+        <img src="html_finalprojimages/react-logo.png" alt="React Logo" class="skill-logo">
+        <h3>React</h3>
+        <p>5 months experience</p>
+      </div>
+      <div class="skill-card">
+        <img src="html_finalprojimages/nodejs-logo.png" alt="Node.js Logo" class="skill-logo">
+        <h3>Node.js</h3>
+        <p>1 year experience</p>
+      </div>
+      <div class="skill-card">
+        <img src="html_finalprojimages/git-logo.png" alt="Git Logo" class="skill-logo">
+        <h3>Git & GitHub</h3>
+        <p>1.5 years experience</p>
+      </div>
+    </div>
+  </section>  
 
-    <div class="iconbutton">
-      <a href="#home">
-        <!--Add the code here for the logo to appear and the icon to be actionable-->
-      </a>
+  <!-- ---------- Projects ---------- -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <ol>
+        <li>Created a simple portfolio site using HTML and CSS to showcase my personal profile.</li>
+        <li>Added a section for skills and projects with responsive design for mobile screens.</li>
+        <li>Practiced basic styling techniques with custom colors and layouts.</li>
+      </ol>
     </div>
 
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here--></h3>
-      <button onclick="showPopup(false)">Ok</button>
+    <div class="project-card">
+      <h3>To-Do List App</h3>
+      <ol>
+        <li>Built a small web app using JavaScript to add and remove daily tasks.</li>
+        <li>Implemented local storage so tasks remain saved even after refreshing.</li>
+        <li>Learned about DOM manipulation and event listeners.</li>
+      </ol>
     </div>
-  </body>
+
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <ol>
+        <li>Developed a weather dashboard using a free public API.</li>
+        <li>Displayed current temperature and conditions with simple CSS styling.</li>
+        <li>Practiced working with fetch requests and handling JSON responses.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ---------- Recommendations ---------- -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div class="recommendations-container" id="recommendations-list">
+      <div class="recommendation">
+        "Eli is very enthusiastic about learning web development. They quickly grasp new concepts, are eager to collaborate on small projects, and always look for ways to improve their skills."
+      </div>
+      <div class="recommendation">
+        "Working with Eli on our beginner coding project was a pleasure. They are diligent, ask thoughtful questions, and demonstrate a great willingness to apply what they learn in practice."
+      </div>
+      <div class="recommendation">
+        "Eli shows strong curiosity and dedication in building web applications. They are committed to learning, actively participate in group tasks, and approach challenges with a positive mindset."
+      </div>
+    </div>
+
+    <!-- Form to Add Recommendation -->
+    <form id="recommendation-form">
+      <h3>Leave a Recommendation</h3>
+      <textarea id="recommendation-text" rows="4" placeholder="Write your recommendation..."></textarea>
+      <button type="button" id="recommend_btn">Submit</button>
+    </form>
+  </section>
+
+  <!-- ---------- Popup ---------- -->
+  <div id="popup">
+    <img src="html_finalprojimages/checkmark--outline.png" alt="Checkmark" width="60px"/>
+    <h3>Thank you! Your recommendation has been submitted.</h3>
+    <button onclick="showPopup(false)">Close</button>
+  </div>
+
+  <!-- ---------- Home Icon ---------- -->
+  <a href="#home" id="home-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
 </html>
